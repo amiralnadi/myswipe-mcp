@@ -1,0 +1,29 @@
+{
+  "name": "myswipe-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for myswipe.cc — save and retrieve swipe file items from Claude Desktop",
+  "main": "dist/index.js",
+  "bin": {
+    "myswipe-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "keywords": [
+    "mcp",
+    "swipe-file",
+    "claude"
+  ],
+  "author": "amiralnadi",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.2",
+    "typescript": "^6.0.2"
+  }
+}
